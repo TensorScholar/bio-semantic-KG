@@ -1,0 +1,55 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "lib": ["deno.window", "deno.ns", "deno.unstable"],
+    "strict": true,
+    "noImplicitAny": true,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "exactOptionalPropertyTypes": true,
+    "noImplicitOverride": true,
+    "noPropertyAccessFromIndexSignature": true,
+    "noUncheckedIndexedAccess": true
+  },
+  "lint": {
+    "include": ["src/"],
+    "exclude": ["dist/", "node_modules/"],
+    "rules": {
+      "tags": ["recommended"],
+      "include": ["ban-untagged-todo"],
+      "exclude": ["no-explicit-any"]
+    }
+  },
+  "fmt": {
+    "useTabs": false,
+    "lineWidth": 100,
+    "indentWidth": 2,
+    "semiColons": true,
+    "singleQuote": true,
+    "proseWrap": "preserve"
+  },
+  "tasks": {
+    "dev": "deno run --allow-all --watch src/index.ts",
+    "build": "deno compile --allow-all --output dist/medical-extraction src/index.ts",
+    "test": "deno test --allow-all",
+    "test:watch": "deno test --allow-all --watch",
+    "test:coverage": "deno test --allow-all --coverage=coverage",
+    "lint": "deno lint",
+    "fmt": "deno fmt",
+    "start": "deno run --allow-all dist/medical-extraction"
+  },
+  "imports": {
+    "@std/": "https://deno.land/std@0.208.0/",
+    "@oak/": "https://deno.land/x/oak@v12.6.1/",
+    "@neo4j/": "https://deno.land/x/neo4j@5.15.0/",
+    "@elastic/": "https://deno.land/x/elasticsearch@8.8.0/",
+    "@redis/": "https://deno.land/x/redis@v0.29.0/",
+    "@playwright/": "https://deno.land/x/playwright@1.40.0/",
+    "@opentelemetry/": "https://deno.land/x/opentelemetry@v1.0.0/",
+    "fp-ts": "https://esm.sh/fp-ts@2.16.5",
+    "io-ts": "https://esm.sh/io-ts@2.2.20",
+    "zod": "https://esm.sh/zod@3.22.4"
+  }
+}

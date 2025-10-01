@@ -197,6 +197,4 @@ The project includes comprehensive mathematical documentation:
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-#### 👨‍💻 Author
-
-Mohammad Atashi - [mohammadaliatashi@icloud.com](mailto:mohammadaliatashi@icloud.com)
+👨‍💻 Author: Mohammad Atashi - mohammadaliatashi@icloud.com

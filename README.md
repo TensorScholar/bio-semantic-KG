@@ -199,18 +199,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 👨‍💻 Author
 
-**Mohammad Atashi** - [mohammadaliatashi@icloud.com](mailto:mohammadaliatashi@icloud.com)
-
-**GitHub Repository**: [https://github.com/TensorScholar/bio-semantic-KG](https://github.com/TensorScholar/bio-semantic-KG)
-
-## 🙏 Acknowledgments
-
-- Domain-Driven Design principles by Eric Evans
-- Hexagonal Architecture by Alistair Cockburn
-- Functional Programming concepts from `fp-ts`
-- Modern TypeScript development practices
-- Open source community contributions
-
----
-
-*Built with ❤️ for the biomedical knowledge extraction world*
+Mohammad Atashi - [mohammadaliatashi@icloud.com](mailto:mohammadaliatashi@icloud.com)

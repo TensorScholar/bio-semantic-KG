@@ -1,4 +1,7 @@
 {
+  "name": "@tensorscholar/bio-semantic-kg",
+  "author": "Mohammad Atashi",
+  "repository": "https://github.com/TensorScholar/bio-semantic-KG.git",
   "compilerOptions": {
     "allowJs": true,
     "lib": ["deno.window", "deno.ns", "deno.unstable"],

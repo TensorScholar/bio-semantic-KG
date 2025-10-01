@@ -1,11 +1,11 @@
 # Bio-Semantic-KG
 
-[![TypeScript](https://img.shields.io/badge/typescript-5.x-blue.svg)](https://www.typescriptlang.org/)
-[![Deno](https://img.shields.io/badge/deno-^1.40-lightgrey?logo=deno)](https://deno.land)
-[![Build Status](https://img.shields.io/badge/build-passing-brightgreen.svg)](https://github.com/)
-[![Coverage](https://img.shields.io/badge/coverage-95%25-brightgreen.svg)](https://github.com/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Code style: Deno](https://img.shields.io/badge/code%20style-deno-000000.svg)](https://deno.land)
+[![TypeScript](https://img.shields.io/badge/typescript-5.x-8B4513.svg)](https://www.typescriptlang.org/)
+[![Deno](https://img.shields.io/badge/deno-^1.40-2F4F4F.svg?logo=deno)](https://deno.land)
+[![Build Status](https://img.shields.io/badge/build-passing-8B0000.svg)](https://github.com/)
+[![Coverage](https://img.shields.io/badge/coverage-95%25-654321.svg)](https://github.com/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-8B4513.svg)](https://opensource.org/licenses/MIT)
+[![Code style: Deno](https://img.shields.io/badge/code%20style-deno-2F4F4F.svg)](https://deno.land)
 
 **Bio-Semantic-KG** is a production-grade, enterprise-level framework for extracting and structuring biomedical knowledge from unstructured, bilingual (Persian/English) sources. It leverages advanced NLP, Computer Vision, and a **Knowledge Graph** (Neo4j) to build a rich, queryable semantic network of medical data.
 
@@ -197,6 +197,6 @@ The project includes comprehensive mathematical documentation:
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-### 👨‍💻 Author
+#### 👨‍💻 Author
 
 Mohammad Atashi - [mohammadaliatashi@icloud.com](mailto:mohammadaliatashi@icloud.com)
